@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="ktw_httpFilter:jar">
+    <output-path>$PROJECT_DIR$/../ktw_httpFilter/target/ktw_httpFilter_jar</output-path>
+    <root id="root">
+      <element id="archive" name="ktw_httpFilter.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/../ktw_httpFilter/src/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="ktw_httpFilter" />
+      </element>
+      <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+    </root>
+  </artifact>
+</component>
